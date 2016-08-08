@@ -9,7 +9,6 @@
        /
       -1
 * Time Complexity of this Solution: O(n)
-* Source: TusharRoy
 */
 #include<bits/stdc++.h>
 using namespace std;
