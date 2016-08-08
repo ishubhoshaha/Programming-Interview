@@ -8,34 +8,10 @@ struct Node{
         right = NULL;
     }
 };
-Node* getNode(int data){
+Node* GetNode(int data){
     Node *temp = new Node();
     temp->data = data;
     return temp;
-}
-Node* Insert(Node* root,int data){
-    if(root == NULL){
-        root = getNode(data);
-    }else  if(data<=root->data){
-        root->left = Insert(root->left,data);
-    }else  if(data>root->data){
-        root->right = Insert(root->right,data);
-    }
-    return root;
-}
-void Inorder(Node* root){
-    if(root==NULL)
-        return ;
-    Inorder(root->left);
-    cout<<root->data<<" ";
-    Inorder(root->right);
-}
-void PreOrder(Node* root){
-    if(root == NULL)
-        return ;
-    printf("%d ",root->data);
-    Inorder(root->left);
-    Inorder(root->right);
 }
 int TreeHight(Node *root){
     if(root==NULL)
@@ -46,21 +22,12 @@ int TreeHight(Node *root){
 }
 int main(){
     Node *root = NULL;
-    root = Insert(root,12);
-    root = Insert(root,29);
-    root = Insert(root,8);
-    root = Insert(root,77);
-    root = Insert(root,32);
-    root = Insert(root,90);
-    root = Insert(root,45);
-    root = Insert(root,122);
-    root = Insert(root,1);
-
-
-    cout<<"Inorder: ";
-    Inorder(root);
-    cout<<endl<<"PreOrder: ";
-    PreOrder(root);
+    root = GetNode(10);
+    root->left = GetNode(16);
+    root->left->right = GetNode(-3);
+    root->right = GetNode(5);
+    root->right->left = GetNode(6);
+    root->right->right = GetNode(11);
     cout<<endl<<"Height of Tree: "<<TreeHight(root);
 
 }
