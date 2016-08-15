@@ -1,6 +1,3 @@
-/* SRC : youtube.com/TR
-*/
-
 #include<bits/stdc++.h>
 using namespace std;
 
