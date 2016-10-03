@@ -29,7 +29,7 @@ void DFS2(int node,int n){
     }
 }
 int main(){
-    freopen("in.txt","r",stdin);
+    //freopen("in.txt","r",stdin);
     int node,edge;
     cin>>node>>edge;
     for(int i = 0;i<edge;i++){
@@ -39,7 +39,11 @@ int main(){
         revGraph[v].push_back(u);
     }
     int comp = 0;
-    DFS(0);
+    for(int i = 0;i<node;i++){
+        if(!isVisit[i]){
+            DFS(i);
+        }
+    }
     memset(isVisit,0,sizeof isVisit);
     reverse(lst.begin(),lst.end());
     for(int i = 0;i<lst.size();i++){
@@ -48,7 +52,7 @@ int main(){
             comp++;
         }
     }
-    //cout<<comp;
+//    cout<<comp;
     for(int i = 0;i<comp;i++){
         cout<<"Component #"<<i+1<<">";
         for(int j=0;j<component[i].size();j++){
