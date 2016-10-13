@@ -1,3 +1,4 @@
+/* http://stackoverflow.com/questions/685060/design-a-stack-such-that-getminimum-should-be-o1 */
 #include<bits/stdc++.h>
 using namespace std;
 stack<int> st,minimum;
