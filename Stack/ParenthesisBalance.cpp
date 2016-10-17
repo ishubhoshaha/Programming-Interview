@@ -5,11 +5,6 @@ bool isOpening(char ch){
         return true;
     else return false;
 }
-bool isCloseing(char ch){
-    if(ch==')' or ch=='}' or ch==']')
-        return true;
-    else return false;
-}
 bool isMatched(char op,char close){
     if( (op=='(' and close==')') or (op=='{' and close=='}') or (op=='[' and close==']') )
         return true;
@@ -21,14 +16,14 @@ bool isBalanced(string inp){
     for(int i = 0;i<inp.size();i++){
         if(isOpening(inp[i])){
             st.push(inp[i]);
-            cout<<inp[i]<<" "<<i<<endl;
+            //cout<<inp[i]<<" "<<i<<endl;
         }
-        else if(isCloseing(inp[i])){
+        else{
             char ch = st.top();
             //cout<<ch;
             st.pop();
             if(!isMatched(ch,inp[i])){
-                cout<<ch<<" "<<inp[i]<<" "<<i<<endl;
+                //cout<<ch<<" "<<inp[i]<<" "<<i<<endl;
                 return false;
             }
         }
