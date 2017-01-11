@@ -1,3 +1,8 @@
+'''
+# Reference: http://www.geeksforgeeks.org/find-missing-number-arithmetic-progression/
+# Time Complexity: 0(logn)
+'''
+
 def BinarySearch(lst):
     n = len(lst)
     start = 0
