@@ -37,6 +37,21 @@
 <li>
 <a href= "https://github.com/shubhodotcse/Programming-Interview/blob/master/Arrays/powerset.cpp">Generate power set from given array</a>
 </li>
+
+<li>
+<a href="https://github.com/shubhodotcse/Programming-Interview/blob/master/Arrays/equilibrium_index.cpp">Given an array A size of n. Find an Equilibrium Index i where A[0]+A[1]+...+A[i-1] == A[i+1]+A[i+2]+...+A[n-1]</a>
+</li>
+<li>
+<a href ="https://github.com/shubhodotcse/Programming-Interview/blob/master/Arrays/PairThatMake_N.cpp">Given an array A and number N. Find pairs from A whose sum is exactly N.</a>
+</li>
+<li>
+<a href = "https://github.com/shubhodotcse/Programming-Interview/blob/master/Arrays/TripletSum.cpp">Given an array 'A' and a number N. Find all pairs of numbers such that A[i] + A[j] + A[k] = N.</a>
+</li>
+<li>
+<a href = "https://github.com/shubhodotcse/Programming-Interview/blob/master/Arrays/union_intersection.py"> Given 2 sorted arrays A and B. Find union & intersection of A and B.</a>
+</li>
+<li>
+<a href = "https://github.com/shubhodotcse/Programming-Interview/blob/master/Arrays/CheckArrayElementsRConsecutive.py">Given an array.Check the elements of array are consecutive or not.</a>
 </ul>
 
 
