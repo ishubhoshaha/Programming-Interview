@@ -18,6 +18,13 @@
 </ol>
 
 <h1> <a id="arrays" class="anchor" href="#arrays" aria-hidden="true"> Arrays</a> </h1>
-<ul><a hrrf= "https://github.com/shubhodotcse/Programming-Interview/blob/master/Arrays/merge2sortedarray.cpp">Given 2 Sorted array, Merge them in O(1) additional space</a></ul>
+<ul>
+<li>
+<a hrrf= "https://github.com/shubhodotcse/Programming-Interview/blob/master/Arrays/merge2sortedarray.cpp">Given 2 Sorted      array, Merge them in O(1) additional space</a>
+</li>
+<li>
+<a hrrf= "https://github.com/shubhodotcse/Programming-Interview/blob/master/Arrays/merge2sortedarray.cpp">Given 2 Sorted      array, Merge them in O(1) additional space</a>
+</li>
+</ul>
 
 
