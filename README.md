@@ -1,7 +1,7 @@
 <h1> Topics </h1>
 <ol>
 <li> <a href="#arrays"> Arrays</a></li>
-<li> <a href="#backtrack">Backtrack/Binary Search</a></li>
+<li> <a href="#backtrack">Backtrack / Recursion</a></li>
 <li>Binary Search</li>
 <li>Bits</li>
 <li>Dynamic Programming</li>
@@ -17,7 +17,7 @@
 <li>Misc</li>
 </ol>
 
-<h1> <a id="arrays" class="anchor" href="#arrays" aria-hidden="true"> Arrays</a> </h1>
+<h2 class = "panel-primary"> <a id="arrays" class="anchor" href="#arrays" aria-hidden="true"> Arrays</a> </h2>
 <ul>
 <li>
 <a href= "https://github.com/shubhodotcse/Programming-Interview/blob/master/Arrays/merge2sortedarray.cpp">Given 2 Sorted      array, Merge them in O(1) additional space</a>
