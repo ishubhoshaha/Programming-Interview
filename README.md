@@ -1,8 +1,8 @@
 <h1> Topics </h1>
 <ol>
 <li> <a href="#arrays"> Arrays</a></li>
+<li> <a href="#backtrack">Backtrack/Binary Search</a></li>
 <li>Binary Search</li>
-<li>Backtracking</li>
 <li>Bits</li>
 <li>Dynamic Programming</li>
 <li>Graph Theory</li>
@@ -54,4 +54,15 @@
 <a href = "https://github.com/shubhodotcse/Programming-Interview/blob/master/Arrays/CheckArrayElementsRConsecutive.py">Given an array.Check the elements of array are consecutive or not.</a>
 </ul>
 
-
+<h2> <a id="backtrack" class="anchor" href="#backtrack" aria-hidden="true"> Backtracking/Recursion</a> </h2>
+<ul>
+<li>
+<a href="https://github.com/shubhodotcse/Programming-Interview/edit/master/Backtracking/N-Queen">N-Queen Problem</a>
+</li>
+<li>
+<a href ="https://github.com/shubhodotcse/Programming-Interview/blob/master/Backtracking/permutation_generator.cpp">Permutation Generator</a>
+</li>
+<li>
+<a href = "https://github.com/shubhodotcse/Programming-Interview/blob/master/Backtracking/SubsetSum.cpp">Given an array of Positive numbers. Find if there exist a subset whose sum is equal to given sum.</a>
+</li>
+<ul>
