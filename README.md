@@ -20,10 +20,10 @@
 <h1> <a id="arrays" class="anchor" href="#arrays" aria-hidden="true"> Arrays</a> </h1>
 <ul>
 <li>
-<a hrrf= "https://github.com/shubhodotcse/Programming-Interview/blob/master/Arrays/merge2sortedarray.cpp">Given 2 Sorted      array, Merge them in O(1) additional space</a>
+<a hrref= "https://github.com/shubhodotcse/Programming-Interview/blob/master/Arrays/merge2sortedarray.cpp">Given 2 Sorted      array, Merge them in O(1) additional space</a>
 </li>
 <li>
-<a hrrf= "https://github.com/shubhodotcse/Programming-Interview/blob/master/Arrays/merge2sortedarray.cpp">Given 2 Sorted      array, Merge them in O(1) additional space</a>
+<a href= "https://github.com/shubhodotcse/Programming-Interview/blob/master/Arrays/merge2sortedarray.cpp">Given 2 Sorted      array, Merge them in O(1) additional space</a>
 </li>
 </ul>
 
